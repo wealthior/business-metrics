@@ -71,6 +71,7 @@ vercel --prod
 ### Other Platforms
 
 The dashboard can be deployed to any platform that supports Next.js:
+
 - Netlify
 - AWS Amplify
 - Railway
@@ -154,8 +155,8 @@ Edit the color scheme in `app/globals.css`:
 
 ```css
 :root {
-  --primary: 239 84% 67%;  /* Indigo-500 */
-  --background: 224 71.4% 4.1%;  /* Zinc-950 */
+  --primary: 239 84% 67%; /* Indigo-500 */
+  --background: 224 71.4% 4.1%; /* Zinc-950 */
   /* ... */
 }
 ```
@@ -166,7 +167,7 @@ Customize demo data in `lib/mock-data.ts`:
 
 ```typescript
 export const dashboardMetrics = {
-  mrr: { value: 127450, change: 8.2, trend: 'up' },
+  mrr: { value: 127450, change: 8.2, trend: "up" },
   // ...
 };
 ```
@@ -174,6 +175,7 @@ export const dashboardMetrics = {
 ### Components
 
 All components are modular and can be customized:
+
 - `components/dashboard/MetricCard.tsx` - Metric display cards
 - `components/charts/*` - All chart types
 - `components/layout/*` - Sidebar, Header
@@ -210,8 +212,8 @@ Built by [Roberto Mazzotta](https://mazzotta.dev)
 For custom dashboard development or inquiries:
 
 - Website: [mazzotta.dev](https://mazzotta.dev)
-- Email: roberto@mazzotta.dev
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: info@mazzotta.dev
+- GitHub: [@yourusername](https://github.com/wealthior)
 
 ---
 
